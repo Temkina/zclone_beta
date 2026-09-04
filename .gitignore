@@ -1,0 +1,5 @@
+# Zwischenstand von BetaBauen.ps1 (Schritt 3/5) - wird zu ZClone-Beta.zip
+# gepackt und danach absichtlich NICHT geloescht (das Skript raeumt ihn erst
+# beim naechsten Lauf auf), gehoert aber nie in dieses Release-Repo, das
+# ausschliesslich die fertige ZIP enthalten soll.
+/ZClone/
