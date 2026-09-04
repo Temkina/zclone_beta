@@ -3,3 +3,10 @@
 # beim naechsten Lauf auf), gehoert aber nie in dieses Release-Repo, das
 # ausschliesslich die fertige ZIP enthalten soll.
 /ZClone/
+
+# Manuell (z. B. per Windows "Extrahieren nach ZClone-Beta\...") entpackte
+# Kopie der ZIP-Datei - kam schon einmal vor (2026-09-04, 161 unnoetige
+# Dateien/400MB, versehentlich fast committet) und wuerde den Inhalt der
+# ZIP redundant nochmal als Einzeldateien ins Repo bringen. Dieses Repo
+# soll ausschliesslich die fertige ZIP enthalten.
+/ZClone-Beta/
