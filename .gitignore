@@ -10,3 +10,8 @@
 # ZIP redundant nochmal als Einzeldateien ins Repo bringen. Dieses Repo
 # soll ausschliesslich die fertige ZIP enthalten.
 /ZClone-Beta/
+
+# Fertige Beta-ZIP: liegt ab sofort ausschliesslich als Release-Asset unter
+# github.com/Temkina/zclone_beta/releases (nicht mehr direkt im Repo-Baum),
+# damit das Repo nicht bei jedem Beta-Build unnoetig per LFS wächst.
+/ZClone-Beta.zip
