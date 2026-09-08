@@ -17,8 +17,7 @@ ZClone (eine einzelne, portable `ZClone.exe` als ZIP) zum direkten Download -
 **kein Quellcode**. Aktuelle Beta: siehe [Releases](../../releases).
 
 Der Quellcode liegt im separaten Haupt-Repository
-[Temkina/ZClone](https://github.com/Temkina/ZClone) - dort auch die
-Bau-/Start-/Test-Anleitung fuer alle, die selbst an ZClone arbeiten wollen.
+[Temkina/ZClone](https://github.com/Temkina/ZClone).
 
 ## Lizenz
 
