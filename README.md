@@ -7,7 +7,7 @@ Zwei-Fenster-Explorer-Ansicht mit einer Anbindung an
 sodass Cloud-Speicher (Google Drive, WebDAV, S3-kompatible Anbieter usw.)
 genauso durchsucht, kopiert und verwaltet werden kann wie lokale Ordner.
 
-Keine Installation, keine Registry-Einträge, keine Aenderungen am
+Keine Installation, keine Registry-Einträge, keine Änderungen am
 Betriebssystem - alle Pfade werden relativ zum Programmordner aufgebaut.
 
 ## Download
