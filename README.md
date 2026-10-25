@@ -1,7 +1,7 @@
 # ZClone (Windows)
 
 **ZClone** ist ein vollständig portabler Dateimanager mit zwei Fenstern für Windows 10 und 11. Er bindet
-Cloud-Speicher („Provider“) so ein, dass du sie wie lokale Ordner nutzt. ZClone kann:
+Cloud-Speicher („Provider“) so ein, dass Sie sie wie lokale Ordner nutzen. ZClone kann:
 
 - Dateien und Ordner kopieren, verschieben, löschen und umbenennen – auch zwischen PC und Cloud,
 - Ordner einmalig oder automatisch abgleichen (einseitig oder in beide Richtungen),
@@ -53,7 +53,7 @@ Dieses Repository enthält nur die fertigen Versionen, keinen Quellcode.
    `ZClone` an und startet von dort neu.
 4. **Provider einrichten (optional):** *ZClone → Rclone Provider → Neu…*, Anbieter wählen, Felder ausfüllen.
    Unten links **Hilfe** öffnet die Anleitung genau für diesen Anbieter. Bei Anbietern mit Browser-Anmeldung
-   (Google Drive, OneDrive, Dropbox …) meldest du dich im Browser an.
+   (Google Drive, OneDrive, Dropbox …) melden Sie sich im Browser an.
 5. **Synchronisation (optional):** *Synchronisation → Neuer Job…* für wiederkehrende Abgleiche.
 
 Das Handbuch in der App (*Optionen → Handbuch*) erklärt jeden Schritt.
@@ -98,7 +98,7 @@ Das Handbuch in der App (*Optionen → Handbuch*) erklärt jeden Schritt.
   Kontextmenü-Ziele, Mounts und den Standard-Startpfad.
 - **Löschen** entfernt nur die Einstellung in ZClone, nie die Daten in der Cloud. Was betroffen ist, zeigt
   ZClone vorher an.
-- **Verbinden erst bei Bedarf:** Ein Provider verbindet sich, wenn du ihn anklickst. Rechtsklick auf den
+- **Verbinden erst bei Bedarf:** Ein Provider verbindet sich, wenn Sie ihn anklicken. Rechtsklick auf den
   Knoten *Provider* → *Alle Provider verbinden* bzw. *Alle Provider trennen*.
 - **Standard-Startpfad:** Rechtsklick → *Als Standard setzen* lässt das rechte Pane bei jedem Start dort beginnen.
 
@@ -126,7 +126,7 @@ Das Handbuch in der App (*Optionen → Handbuch*) erklärt jeden Schritt.
   - **Auslöser:** Echtzeit (sofort bei Änderungen), Geplant (alle X Minuten) oder nur manuell.
   - **Verhalten:** ob vorhandene Dateien überschrieben, fehlende gelöscht oder vor dem Löschen als
     Sicherungskopie behalten werden.
-- **Konflikte** (z. B. beide Seiten geändert) entscheidest du in der Vorschau je Zeile.
+- **Konflikte** (z. B. beide Seiten geändert) entscheiden Sie in der Vorschau je Zeile.
 - **Ausschlüsse:** in der Vorschau per Rechtsklick eine Datei oder ein Muster dauerhaft ausschließen.
   Systemdateien (z. B. `desktop.ini`) und versteckte Dateien sind standardmäßig ausgeschlossen, je Auftrag
   abweichend einstellbar.
@@ -183,13 +183,13 @@ Das Handbuch in der App (*Optionen → Handbuch*) erklärt jeden Schritt.
 ## Was ZClone am System ändert
 
 Grundsätzlich nichts: keine Installation, keine Dienste, alle Daten im Programmordner. Nur diese
-Funktionen schreiben außerhalb davon – jeweils erst, wenn du sie einschaltest, und nur für deinen Benutzer:
+Funktionen schreiben außerhalb davon – jeweils erst, wenn Sie sie einschalten, und nur für Ihren Benutzer:
 
 | Funktion | Änderung |
 |---|---|
 | **Autostart** (Hintergrund, Mounts) | Verknüpfung im persönlichen Autostart-Ordner von Windows |
 | **Explorer-Kontextmenü** | Einträge unter `HKEY_CURRENT_USER` (ein Rechtsklick-Menü geht unter Windows nur über die Registry); beim Ausschalten werden sie wieder entfernt |
-| **Als Laufwerk einbinden** | braucht WinFsp, das du selbst installierst |
+| **Als Laufwerk einbinden** | braucht WinFsp, das Sie selbst installieren |
 | **Datenträgerverwaltung** | Windows fragt eventuell nach Administratorrechten |
 
 ---
@@ -197,7 +197,7 @@ Funktionen schreiben außerhalb davon – jeweils erst, wenn du sie einschaltest
 ## Datenschutz und Sicherheit
 
 - **Keine Konten, keine Statistik.** ZClone spricht nur mit
-  - deinen Providern,
+  - Ihren Providern,
   - `api.github.com` und `github.com`, nur für die Update-Suche und den Download,
   - `graph.microsoft.com`, nur beim Einrichten von OneDrive, um das richtige Laufwerk zu finden.
 - **Zugangsdaten** liegen im Ordner `Konfiguration` neben der `ZClone.exe`. **Diesen Ordner nie weitergeben
@@ -244,7 +244,7 @@ Funktionen schreiben außerhalb davon – jeweils erst, wenn du sie einschaltest
 ## Lizenzen
 
 - **ZClone:** © 2026 Temkina, alle Rechte vorbehalten, eigene Lizenzvereinbarung
-  (im ZIP unter `Dokumentation\Lizenzen\ZClone-LICENSE.txt`). Unterstützen kannst du das Projekt freiwillig
+  (im ZIP unter `Dokumentation\Lizenzen\ZClone-LICENSE.txt`). Unterstützen können Sie das Projekt freiwillig
   über *Optionen → Einstellungen → Reiter „Sponsor“*.
 - **rclone-extra** von [gulp79](https://github.com/gulp79/rclone-extra), basierend auf
   [rclone](https://rclone.org/) © Nick Craig-Wood (MIT), unverändert mitgeliefert unter
